@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Code Repo</title>
+         <style>
+             @import url('https://fonts.googleapis.com/css2?family=McLaren&family=Poppins:wght@400;600;700&family=Roboto&family=Roboto+Slab:wght@500;600&display=swap');
+             body{
+                 margin: 0;
+             }
+           .header_section {
+             background-color: white;
+           }
+           .sticky {
+               position: fixed;
+               top: 0;
+               width: 100%;
+}
+             .header_container {
+                 width: 100%;
+                 max-width: 1200px;
+                 margin: 0 auto;
+                 display: flex;
+                 padding: 15px 0px;
+             }
+             .logo_col {
+                 flex: 0 0 30%;
+             }
+             .menu_col {
+                 flex: 0 0 70%;
+             }
+             .menu_col ul {
+                 display: flex;
+                 flex-wrap: wrap;
+                 list-style-type: none;
+                 justify-content: center;
+             }
+             .logo_col img {
+                 width: 40%;             
+                }
+            .menu_col li a {
+                font-family: 'Roboto Slab', serif;
+                text-decoration: none;
+            }
+            .menu_col li {
+                padding: 0px 40px
+            }
+            .content_row {
+                width: 100%;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .content_row p{
+                font-family: 'Roboto Slab', serif;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 32px;
+                padding: 30px 45px;
+                margin: 0px;
+            }
+            .main_container {
+                background-color: aliceblue;
+            }
+            @media screen and (max-width: 1199px) and (min-width: 1025px) {
+                .logo_col {
+                    text-align: center
+                }
+            }
+            @media screen and (min-width: 1025px) {
+                .hamburger_menu {
+                    display: none;
+                }
+            }
+            @media screen and (max-width: 1024px) {
+                .menu_col {
+                    display: none;
+                }
+                .logo_col {
+                    flex: 0 0 60%;
+                }
+                .logo_col img {
+                    width: 50%;
+                }
+                .hamburger_menu {
+                    display: flex;
+                    flex: 0 0 40%;
+                    justify-content: end;
+                }
+                .hamburger_menu img {
+                    width: 50px;
+                    height: 50px;
+                    padding: 30px;
+                }
+                .content_row p {
+                   line-height: 36px;
+        }
+            }
+         @media screen and (max-width: 767px) {
+            .hamburger_menu img {
+                  width: 50px;
+                   height: 50px;
+                   padding: 30px;
+        }
+        .content_row p {
+                   line-height: 52px;
+        }
+         }
+         </style>
+    </head>
+    <body>
+        
+        <div class="header_section" id="myHeader">
+            <div class="header_container">
+                <div class="logo_col">
+                    <img src="/logo-b.jpeg" alt="" class="logo_img">
+                </div>
+                <div class="menu_col">
+                    <ul>
+                        <li><a href="#">HOME</a> </li>
+                        <li> <a href="#">ABOUT</a></li>  
+                        <li> <a href="#">SERVICES</a></li> 
+                        <li> <a href="#">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger_menu">
+                    <img src="/more.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="main_container">
+            <div class="content_row">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non adipisci necessitatibus cupiditate possimus. Ut soluta eveniet animi cumque, itaque voluptate earum ipsum deleniti atque expedita veniam nobis? Hic, esse.
+              Maiores non doloribus ad officiis inventore! Veniam vero quisquam eum, ratione porro minus repellendus earum? Corrupti repellat eveniet sequi alias asperiores nemo quaerat, atque inventore necessitatibus qui neque ullam repellendus?
+              Dicta neque commodi soluta maxime porro delectus accusamus, totam accusantium, nobis unde nisi eum esse fugit corrupti? Non porro odio beatae error nam nisi optio, ducimus pariatur saepe totam fuga!</p>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aliquid rerum! Quaerat velit unde, odio dolorem magnam tenetur minima nisi sint, distinctio totam in atque possimus perferendis voluptate, natus impedit.
+              Harum doloremque, distinctio, accusamus earum beatae eaque eum soluta ab ipsa sequi quos deleniti asperiores doloribus ducimus! Id, et quod sed laborum, cum eum rem amet, ab autem corrupti dicta.
+              Provident, architecto voluptatum distinctio vel ea aliquam eos aut ducimus sed unde porro fuga suscipit rem nesciunt dolore illum officiis deserunt, molestiae obcaecati vitae eaque. Laboriosam accusamus incidunt autem necessitatibus!</p>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non adipisci necessitatibus cupiditate possimus. Ut soluta eveniet animi cumque, itaque voluptate earum ipsum deleniti atque expedita veniam nobis? Hic, esse.
+                Maiores non doloribus ad officiis inventore! Veniam vero quisquam eum, ratione porro minus repellendus earum? Corrupti repellat eveniet sequi alias asperiores nemo quaerat, atque inventore necessitatibus qui neque ullam repellendus?
+                Dicta neque commodi soluta maxime porro delectus accusamus, totam accusantium, nobis unde nisi eum esse fugit corrupti? Non porro odio beatae error nam nisi optio, ducimus pariatur saepe totam fuga!</p>
+  
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aliquid rerum! Quaerat velit unde, odio dolorem magnam tenetur minima nisi sint, distinctio totam in atque possimus perferendis voluptate, natus impedit.
+                Harum doloremque, distinctio, accusamus earum beatae eaque eum soluta ab ipsa sequi quos deleniti asperiores doloribus ducimus! Id, et quod sed laborum, cum eum rem amet, ab autem corrupti dicta.
+                Provident, architecto voluptatum distinctio vel ea aliquam eos aut ducimus sed unde porro fuga suscipit rem nesciunt dolore illum officiis deserunt, molestiae obcaecati vitae eaque. Laboriosam accusamus incidunt autem necessitatibus!</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non adipisci necessitatibus cupiditate possimus. Ut soluta eveniet animi cumque, itaque voluptate earum ipsum deleniti atque expedita veniam nobis? Hic, esse.
+                    Maiores non doloribus ad officiis inventore! Veniam vero quisquam eum, ratione porro minus repellendus earum? Corrupti repellat eveniet sequi alias asperiores nemo quaerat, atque inventore necessitatibus qui neque ullam repellendus?
+                    Dicta neque commodi soluta maxime porro delectus accusamus, totam accusantium, nobis unde nisi eum esse fugit corrupti? Non porro odio beatae error nam nisi optio, ducimus pariatur saepe totam fuga!</p>
+      
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aliquid rerum! Quaerat velit unde, odio dolorem magnam tenetur minima nisi sint, distinctio totam in atque possimus perferendis voluptate, natus impedit.
+                    Harum doloremque, distinctio, accusamus earum beatae eaque eum soluta ab ipsa sequi quos deleniti asperiores doloribus ducimus! Id, et quod sed laborum, cum eum rem amet, ab autem corrupti dicta.
+                    Provident, architecto voluptatum distinctio vel ea aliquam eos aut ducimus sed unde porro fuga suscipit rem nesciunt dolore illum officiis deserunt, molestiae obcaecati vitae eaque. Laboriosam accusamus incidunt autem necessitatibus!</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non adipisci necessitatibus cupiditate possimus. Ut soluta eveniet animi cumque, itaque voluptate earum ipsum deleniti atque expedita veniam nobis? Hic, esse.
+                        Maiores non doloribus ad officiis inventore! Veniam vero quisquam eum, ratione porro minus repellendus earum? Corrupti repellat eveniet sequi alias asperiores nemo quaerat, atque inventore necessitatibus qui neque ullam repellendus?
+                        Dicta neque commodi soluta maxime porro delectus accusamus, totam accusantium, nobis unde nisi eum esse fugit corrupti? Non porro odio beatae error nam nisi optio, ducimus pariatur saepe totam fuga!</p>
+          
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aliquid rerum! Quaerat velit unde, odio dolorem magnam tenetur minima nisi sint, distinctio totam in atque possimus perferendis voluptate, natus impedit.
+                        Harum doloremque, distinctio, accusamus earum beatae eaque eum soluta ab ipsa sequi quos deleniti asperiores doloribus ducimus! Id, et quod sed laborum, cum eum rem amet, ab autem corrupti dicta.
+                        Provident, architecto voluptatum distinctio vel ea aliquam eos aut ducimus sed unde porro fuga suscipit rem nesciunt dolore illum officiis deserunt, molestiae obcaecati vitae eaque. Laboriosam accusamus incidunt autem necessitatibus!</p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non adipisci necessitatibus cupiditate possimus. Ut soluta eveniet animi cumque, itaque voluptate earum ipsum deleniti atque expedita veniam nobis? Hic, esse.
+                            Maiores non doloribus ad officiis inventore! Veniam vero quisquam eum, ratione porro minus repellendus earum? Corrupti repellat eveniet sequi alias asperiores nemo quaerat, atque inventore necessitatibus qui neque ullam repellendus?
+                            Dicta neque commodi soluta maxime porro delectus accusamus, totam accusantium, nobis unde nisi eum esse fugit corrupti? Non porro odio beatae error nam nisi optio, ducimus pariatur saepe totam fuga!</p>
+              
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, aliquid rerum! Quaerat velit unde, odio dolorem magnam tenetur minima nisi sint, distinctio totam in atque possimus perferendis voluptate, natus impedit.
+                            Harum doloremque, distinctio, accusamus earum beatae eaque eum soluta ab ipsa sequi quos deleniti asperiores doloribus ducimus! Id, et quod sed laborum, cum eum rem amet, ab autem corrupti dicta.
+                            Provident, architecto voluptatum distinctio vel ea aliquam eos aut ducimus sed unde porro fuga suscipit rem nesciunt dolore illum officiis deserunt, molestiae obcaecati vitae eaque. Laboriosam accusamus incidunt autem necessitatibus!</p>
+            </div>
+        </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+    </body>
+</html>
